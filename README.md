@@ -1,8 +1,10 @@
 # IND1E Restaurant Website
 
-IND1E is a restaurant website project featuring popular Maharashtrian and South Indian dishes favourites.
+IND1E is a restaurant website based on popular South Indian
+and Maharashtrian dishes.
 
-The website is being developed step by step using basic HTML and CSS.
+The website is being developed as a web development
+assignment using HTML and CSS.
 
 ## Planned Sections
 - Home
@@ -12,7 +14,9 @@ The website is being developed step by step using basic HTML and CSS.
 - Customer reviews
 - Opening hours and contact details
 
-## Technologies
+## Technologies Used
 - HTML5
 - CSS3
-- JS
+
+## Current Progress
+- Created the basic project README
