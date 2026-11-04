@@ -8,8 +8,8 @@ IND1E is a restaurant website featuring popular South Indian and Maharashtrian d
 - Dish descriptions and prices
 - About section
 - Opening hours and contact details
-- CSS-only dark and light mode toggle
-- Warm, coffee-inspired colour themes
+- CSS for dark and light mode toggle
+- Warm, ind1e-inspired colour theme
 - Responsive page styling and layout
 
 ## Technologies Used
