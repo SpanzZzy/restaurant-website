@@ -1,8 +1,6 @@
-
 # IND1E Restaurant Website
 
-IND1E is a restaurant website featuring popular South Indian
-and Maharashtrian dishes at budget-friendly prices.
+IND1E is a restaurant website featuring popular South Indian and Maharashtrian dishes at budget-friendly prices.
 
 ## Features
 - Restaurant homepage and navigation
@@ -10,21 +8,23 @@ and Maharashtrian dishes at budget-friendly prices.
 - Dish descriptions and prices
 - About section
 - Opening hours and contact details
+- CSS-only dark and light mode toggle
+- Warm, coffee-inspired colour themes
+- Responsive page styling and layout
 
 ## Technologies Used
 - HTML5
-- CSS3 (planned)
+- CSS3
 
 ## Project Structure
 - `index.html` - Main website page
+- `style.css` - Website styling and themes
 - `README.md` - Project information
 
 ## How to Run
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open `index.html` in a web browser.
-
-## Screenshots
-Screenshots will be added after the website styling is completed.
+3. Directly run using the deployed link.
 
 ## Live Demo
-To be added if the website is deployed.
+[View IND1E Restaurant Website](https://restaurant-website-span.vercel.app/)
