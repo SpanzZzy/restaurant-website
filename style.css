@@ -132,3 +132,50 @@ footer {
         height: 190px;
     }
 }
+#modeToggle {
+    position: absolute;
+    opacity: 0;
+}
+.modeToggle {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px;
+    border: 1px solid #FFF2DB;
+    border-radius: 20px;
+    color: #FFF2DB;
+    cursor: pointer;
+}
+.lightmode {
+    display: none;
+}
+#modeToggle:checked + .modeToggle .darkmode {
+    display: none;
+}
+#modeToggle:checked + .modeToggle .lightmode {
+    display: inline;
+}
+body:has(#modeToggle:checked) {
+    background-color: #1E1A17;
+    color: #F4E8D4;
+}
+body:has(#modeToggle:checked) section {
+    background-color: #2B2420;
+    border-color: #59483B;
+}
+body:has(#modeToggle:checked) section h2 {
+    color: #E0A46C;
+    border-bottom-color: #9D704B;
+}
+body:has(#modeToggle:checked) section h3 {
+    color: #E7BD86;
+}
+body:has(#modeToggle:checked) article {
+    background-color: #362D27;
+    border-color: #59483B;
+}
+body:has(#modeToggle:checked) article p:last-child {
+    color: #E0A46C;
+}
+body:has(#modeToggle:checked) header {
+    background-color: #17110E;
+}
